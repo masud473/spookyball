@@ -1,5 +1,5 @@
 # SpookyBall
-Just tinkering aruond for practice 
+Just tinkering around for practice 
 
 SpookyBall is a WebGPU-powered, Halloween-themed, open source Breakout clone!
 
