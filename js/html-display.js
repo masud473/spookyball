@@ -19,7 +19,7 @@ export class HTMLDisplaySystem extends System {
     const gameState = this.singleton.get(GameState);
 
     if (gameState.lives == 0) {
-      this.levelTitle.innerText = `Game Over`;
+      this.levelTitle.innerText = `খেলা শেষ `;
       this.levelTitle.classList.add('show');
       this.replayButton.classList.add('show');
     } else if (gameState.levelStarting && gameState.level > 0) {
